@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Mp3Service" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Mp3Service" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:60222/Mp3Service.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/MongoDB.Bson" />
+  <xs:complexType name="ArrayOfMp3File">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Mp3File" nillable="true" type="tns:Mp3File" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMp3File" nillable="true" type="tns:ArrayOfMp3File" />
+  <xs:complexType name="Mp3File">
+    <xs:sequence>
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/MongoDB.Bson" minOccurs="0" name="_id" type="q1:ObjectId" />
+      <xs:element minOccurs="0" name="album" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="artist" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="composer" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="filePath" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="genre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="group" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="groupLead" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="interpeter" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="publisher" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="songTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="track" type="xs:int" />
+      <xs:element minOccurs="0" name="year" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Mp3File" nillable="true" type="tns:Mp3File" />
+</xs:schema>
