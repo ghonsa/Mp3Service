@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="159fba76-f2bc-4baa-b380-b66ec0326e25" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:60222/Mp3Service.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Mp3Service.disco" MetadataType="Disco" ID="1c685b73-2fa9-4aee-a69d-bfe71d8b7838" SourceId="1" SourceUrl="http://localhost:60222/Mp3Service.svc?disco" />
+    <MetadataFile FileName="Mp3Service.xsd" MetadataType="Schema" ID="42a63ffe-4502-4087-9393-3c4965ef242c" SourceId="1" SourceUrl="http://localhost:60222/Mp3Service.svc?xsd=xsd0" />
+    <MetadataFile FileName="Mp3Service1.xsd" MetadataType="Schema" ID="e6715c3f-49a8-4e4c-885a-007d76daa7a0" SourceId="1" SourceUrl="http://localhost:60222/Mp3Service.svc?xsd=xsd1" />
+    <MetadataFile FileName="Mp3Service2.xsd" MetadataType="Schema" ID="b89fed8a-fdfc-41b4-9d94-008bcf0576c0" SourceId="1" SourceUrl="http://localhost:60222/Mp3Service.svc?xsd=xsd2" />
+    <MetadataFile FileName="Mp3Service3.xsd" MetadataType="Schema" ID="434c7719-87d4-4b28-a51d-f636a6aa17ad" SourceId="1" SourceUrl="http://localhost:60222/Mp3Service.svc?xsd=xsd3" />
+    <MetadataFile FileName="Mp3Service4.xsd" MetadataType="Schema" ID="c5ad86c8-c877-4a07-b246-e30c128610e6" SourceId="1" SourceUrl="http://localhost:60222/Mp3Service.svc?xsd=xsd4" />
+    <MetadataFile FileName="Mp3Service5.xsd" MetadataType="Schema" ID="6987466c-dd67-4b98-b2c4-825fdf65e501" SourceId="1" SourceUrl="http://localhost:60222/Mp3Service.svc?xsd=xsd5" />
+    <MetadataFile FileName="Mp3Service.wsdl" MetadataType="Wsdl" ID="f7f38b90-320f-42b6-83d2-ec2765337550" SourceId="1" SourceUrl="http://localhost:60222/Mp3Service.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
